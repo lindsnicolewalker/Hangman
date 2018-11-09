@@ -1,2 +1,2 @@
-# Hangman
+# Psychic Game
 Word Guess Game
