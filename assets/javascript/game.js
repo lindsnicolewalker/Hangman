@@ -38,3 +38,17 @@ if (options.indexOf(userGuess) > -1) {
             guessChoices = [];
         }
  
+var html = 
+
+"<h1> The Psychic Game </h1>" +
+"<p>Guess what letter I'm thinking of!</p>" +
+"<p>Wins: " + wins + "</p>" +
+"<p>Losses: " + losses + "</p>" +
+"<p>Guesses Left: " + numGuesses + "</p>" +
+"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
+
+document.querySelector("#game").innerHTML = html;
+}
+
+};
+     
